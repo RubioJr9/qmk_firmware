@@ -4,9 +4,11 @@
 
   // default but used in macros
   #define TAPPING_TERM 200
+  #define HOLDING_TERM 200
 
   // Prevent normal rollover on alphas from accidentally triggering mods.
   #define IGNORE_MOD_TAP_INTERRUPT
+  #define BILATERAL_COMBINATIONS HOLDING_TERM
 
   // Enable rapid switch from tap to hold, disables double tap hold auto-repeat.
   #define TAPPING_FORCE_HOLD
@@ -16,7 +18,7 @@
   #define NO_AUTO_SHIFT_SPECIAL
   #define AUTO_SHIFT_TIMEOUT TAPPING_TERM
   #define AUTO_SHIFT_NO_SETUP
-  #define RETRO_SHIFT 500
+  #define RETRO_SHIFT HOLDING_TERM
 
   // Recommended for heavy chording.
   #define QMK_KEYS_PER_SCAN 4
