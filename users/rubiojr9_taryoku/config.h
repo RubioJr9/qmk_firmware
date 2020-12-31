@@ -4,7 +4,7 @@
 
   // default but used in macros
   #define TAPPING_TERM 200
-  #define HOLDING_TERM 200
+  #define HOLDING_TERM 500
 
   // Prevent normal rollover on alphas from accidentally triggering mods.
   #define IGNORE_MOD_TAP_INTERRUPT

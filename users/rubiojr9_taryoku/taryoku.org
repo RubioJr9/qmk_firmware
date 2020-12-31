@@ -234,10 +234,10 @@ Numerals have Colemak-DHm-like prioritization based on [[https://en.wikipedia.or
 Dot is duplicated from the base layer.
 
 #+NAME: nsr
-| (   |   7 | 8 |    9 | )    |
-| +   |   0 | 1 |    2 | 3    |
-| -   |   4 | 5 |    6 | /    |
-| SPC | DOT | * | U_NP | U_NP |
+| (   | 8 |   9 |    * | )    |
+| +   | 1 |   2 |    3 | 4    |
+| -   | 5 |   6 |    7 | /    |
+| SPC | 0 | DOT | U_NP | U_NP |
 
 *** Brackets and Punctuation (~BPL~)
 Key positions are picked based on finger position with Colemak-DHm-like prioritization
@@ -809,7 +809,7 @@ Config options.  Automatically included.
 
     // default but used in macros
     #define TAPPING_TERM 200
-    #define HOLDING_TERM 200
+    #define HOLDING_TERM 500
 
     // Prevent normal rollover on alphas from accidentally triggering mods.
     #define IGNORE_MOD_TAP_INTERRUPT

@@ -93,10 +93,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     U_NP,    U_NP,    KC_APP,  KC_SPC,  KC_TAB,  U_NA,    U_NA,    U_NA,    U_NP,    U_NP
   ),
   [NSR] = LAYOUT_taryoku(
-    RESET,   U_NA,    U_NA,    U_NA,    U_NA,    KC_LPRN, KC_7,    KC_8,    KC_9,    KC_RPRN,
-    KC_LGUI, KC_LALT, KC_LCTL, KC_LSFT, U_NA,    KC_PLUS, KC_0,    KC_1,    KC_2,    KC_3,
-    U_NA,    KC_ALGR, U_NA,    U_NA,    U_NA,    KC_MINS, KC_4,    KC_5,    KC_6,    KC_SLSH,
-    U_NP,    U_NP,    U_NA,    U_NA,    U_NA,    KC_SPC,  KC_DOT,  KC_ASTR, U_NP,    U_NP
+    RESET,   U_NA,    U_NA,    U_NA,    U_NA,    KC_LPRN, KC_8,    KC_9,    KC_ASTR, KC_RPRN,
+    KC_LGUI, KC_LALT, KC_LCTL, KC_LSFT, U_NA,    KC_PLUS, KC_1,    KC_2,    KC_3,    KC_4,
+    U_NA,    KC_ALGR, U_NA,    U_NA,    U_NA,    KC_MINS, KC_5,    KC_6,    KC_7,    KC_SLSH,
+    U_NP,    U_NP,    U_NA,    U_NA,    U_NA,    KC_SPC,  KC_0,    KC_DOT,  U_NP,    U_NP
   ),
   [MSEL] = LAYOUT_taryoku(
     KC_PERC, KC_DLR,  KC_BSLS, KC_AT,   U_NU,    U_NA,    U_NA,    U_NA,    U_NA,    RESET,
