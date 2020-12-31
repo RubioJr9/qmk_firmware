@@ -76,7 +76,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [MEDR] = LAYOUT_taryoku(
     RESET,   U_NA,    U_NA,    U_NA,    U_NA,    RGB_SPI, RGB_MOD, RGB_HUI, RGB_SAI, RGB_VAI,
     KC_LGUI, KC_LALT, KC_LCTL, KC_LSFT, U_NA,    RGB_TOG, KC_MPRV, KC_VOLD, KC_VOLU, KC_MNXT,
-    U_NA,    KC_ALGR, U_NA,    U_NA,    U_NA,    RGB_SPI, RGB_RMOD, RGB_HUD, RGB_SAD, RGB_VAD,
+    U_NA,    KC_ALGR, U_NA,    U_NA,    U_NA,    RGB_SPD, RGB_RMOD, RGB_HUD, RGB_SAD, RGB_VAD,
     U_NP,    U_NP,    U_NA,    U_NA,    U_NA,    KC_MSTP, KC_MPLY, KC_MUTE, U_NP,    U_NP
   ),
 #endif
